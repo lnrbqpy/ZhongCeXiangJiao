@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="120dp"
+              android:layout_height="110dp"
+              android:background="@drawable/yuanjiao_bg">
+
+          <TextView
+              android:id="@+id/sq_mx_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="名称"
+              android:layout_gravity="center"
+              android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A4D3EE"/>
+
+    <TextView
+        android:id="@+id/sq_mx_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A4D3EE"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="状态"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/sq_mx_renwu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@color/grey"
+            android:textColor="@color/black"
+            android:text="无任务"/>
+    </LinearLayout>
+
+</LinearLayout>

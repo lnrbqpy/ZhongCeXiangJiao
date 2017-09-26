@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contrast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.ContrastActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                 android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="条码"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_tiaoma"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="日期"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_riqi"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="班次"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_banci"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="班组"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_banzu"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="机台"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_jitai"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="时间"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_scsj"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="施工"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_shigong"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="验证"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_yanzheng"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="主手"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_cx1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="副手"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_cx2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+                android:text="规格"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/ct_guige"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.3"
+
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+           android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="制品"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="标准"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="实际"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="结果"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            android:text="条码"/>
+
+    </LinearLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+    <ListView
+        android:id="@+id/ct_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@color/black"
+        android:dividerHeight="1dp">
+
+    </ListView>
+</LinearLayout>

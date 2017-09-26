@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="hznj.com.zhongcexiangjiao">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.BarCodeScanningActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.BarCodeQueryActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.SafetyActivity"
+            android:screenOrientation="landscape">
+        </activity>
+       <!-- 测试用-->
+        <activity
+            android:name=".Activity.Safety2Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.InquireActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+       <activity
+            android:name=".Activity.Inquire2Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".PatternLock.PatternLockSetPasswordActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PatternLock.PatternLockMainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PatternLock.PatternLockLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait">
+
+            <!-- zhuye -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.XLightActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.VulcanizeActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.ContrastActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".zxing.activity.ResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Activity.jiaoliaoActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.webjiaoliaoAdapter"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.bzpChaXunActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.jlChaXunActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.SafetQuery_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.Safet_inspect_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.Safet_inspect_Activity2"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.ZTActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.CodeActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.jihuaActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.peitaikanbanActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.monthly_planActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.monthly_planActivity1"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.ChengXingJiHuaActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.chengxingpeizhiActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.KuCunActivity"
+            android:screenOrientation="landscape">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity android:name=".Activity.photoActivity">
+        </activity>
+        <activity
+            android:name=".Activity.SafexuanzeActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.DuanXinActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.SByouxiaoqiActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.WebViewPhotoActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.checkPhotoActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.Araft_AxamineActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.BuildingCSActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.PartCSActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Activity.FitCSActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".Activity.standardataActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Activity.datajumpActivity"
+                  android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

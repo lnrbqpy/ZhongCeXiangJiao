@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ku_cun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.KuCunActivity">
+
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"/>
+
+        <EditText
+            android:id="@+id/kc_shijian"
+            android:background="@color/white"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+           android:hint="获取开始时间"/>
+
+         <Button
+             android:id="@+id/kc_chaxun"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="查询"/>
+
+    </LinearLayout>
+
+       <ListView
+           android:id="@+id/kc_lv"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </ListView>
+
+
+</LinearLayout>

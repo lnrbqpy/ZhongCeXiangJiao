@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_check_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.checkPhotoActivity"
+    android:orientation="vertical">
+
+
+
+  <LinearLayout
+      android:background="@color/black"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:orientation="horizontal"
+      >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始日期"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/ck_riqi"
+        android:layout_marginLeft="20dp"
+        android:hint="日期"
+        android:background="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束日期"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/ck_riqi2"
+        android:layout_marginLeft="20dp"
+        android:hint="日期"
+        android:background="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="位置"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备位置："
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/ck_weizhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/ck_chaxun"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="查询"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"/>
+  </LinearLayout>
+
+  <GridView
+      android:id="@+id/ck_gv"
+      android:numColumns="2"
+      android:columnWidth="500dp"
+      android:verticalSpacing="10dp"
+      android:horizontalSpacing="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </GridView>
+</LinearLayout>

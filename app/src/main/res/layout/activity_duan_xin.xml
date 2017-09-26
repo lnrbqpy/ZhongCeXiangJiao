@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_duan_xin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.DuanXinActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="短信发送页面"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="设备位置"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/dx_weizhi"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="巡检人"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:background="@drawable/yuanjiao_bg"
+            android:imeOptions="flagNoExtractUi"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:id="@+id/dx_jiancharen"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="问题设备"
+            android:textSize="28dp"
+            android:textColor="@color/red"/>
+
+        <Spinner
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/dx_wentishebei"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="设备区域"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/dx_shebeiweizhi"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="手机号码"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/dx_shouji"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="问题原因"
+            android:textSize="28dp"
+            android:textColor="@color/red"/>
+
+        <Spinner
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:id="@+id/dx_yuanyin"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="26sp"
+        android:text="发送短信"
+        android:id="@+id/dx_fasong"/>
+</LinearLayout>

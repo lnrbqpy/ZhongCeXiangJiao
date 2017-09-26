@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sbyouxiaoqi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.SByouxiaoqiActivity">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="设备有效期页面"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="设备位置"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/yxq_weizhi"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="设备名称"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:background="@drawable/yuanjiao_bg"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:id="@+id/yxq_shebei"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="有效时间"
+            android:textSize="28dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/yuanjiao_bg"
+            android:textColor="@color/black"
+            android:id="@+id/yxq_shijian"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="26sp"
+        android:text="发送"
+        android:id="@+id/yxq_fasong"/>
+</LinearLayout>

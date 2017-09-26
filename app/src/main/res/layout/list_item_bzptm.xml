@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_riqi"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="日期"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_banci"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="班次"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_banzu"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="班组"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_jitai"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="机台"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_scsj"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="生产时间"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_shigong"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="施工表"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_yanzheng"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="验证"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_chengxing"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="主手"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/bzptm_tiaoma"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="生产条码"/>
+
+    </LinearLayout>
+</LinearLayout>

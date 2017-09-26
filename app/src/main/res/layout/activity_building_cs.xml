@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_building_cs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/application_bg_welcome"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.BuildingCSActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="成型机参数"
+                android:textColor="@color/white"
+                android:textSize="23sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="平面宽度±2mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_pingmian1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_pingmian2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_pingmian3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_pingmian4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="钢丝圈外侧宽度mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_gangsiquan1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_gangsiquan2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_gangsiquan3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_gangsiquan4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="撑起平面宽mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_chengqi1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_chengqi2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_chengqi3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_chengqi4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1_3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="预定型±5mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_yudingxing"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="定型±5mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_dingxing"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1_4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="超定型±5mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_chaodingxing"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="带束鼓周长mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_daishugu"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="贴合鼓周长mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_cx_tiehegu"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn1_5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="部件宽度mm/光标偏移mm检查"
+                android:textColor="@color/white"
+                android:textSize="23sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎侧"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taice1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taice2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taice3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taice4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="内衬层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_neichenceng1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_neichenceng2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_neichenceng3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_neichenceng4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="钢包"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_gangbao1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_gangbao2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_gangbao3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_gangbao4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎体"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taiti1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taiti2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taiti3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taiti4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="垫胶"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_dianjiao1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_dianjiao2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_dianjiao3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_dianjiao4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="1#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng1_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng1_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng1_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng1_4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_6"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="2#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng2_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng2_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng2_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng2_4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_7"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="3#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng3_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng3_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng3_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng3_4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_8"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="0°/4#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng4_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng4_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng4_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_daishuceng4_4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_9"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎面"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taimian1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taimian2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taimian3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_taimian4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_10"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="主鼓中心线"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_zhugu"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="numberSigned"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="辅鼓中心线"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_bj_fugu"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="numberSigned"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn2_11"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="贴合位置mm/接头质量"
+                android:textColor="@color/white"
+                android:textSize="23sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎侧"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taice1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taice2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_taice3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="内衬层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_neichenceng1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_neichenceng2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_neichenceng3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="钢包贴合位置"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_gangbaoTH1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_gangbaoTH2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_gangbaoTH3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎体"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taiti1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taiti2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_taiti3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="垫胶贴合位置"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_dianjiaoTH1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_dianjiaoTH2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_dianjiaoTH3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="1#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng1_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng1_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_daishuceng1_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_6"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="2#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng2_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng2_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_daishuceng2_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn3_7"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="3#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng3_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng3_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_daishuceng3_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn3_8"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="0°/4#带束层"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng4_1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_daishuceng4_2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_daishuceng4_3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:id="@+id/btn3_9"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="152dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="胎体滚压s"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taitigunya"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="胎胚周长mm"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/bd_th_taipeizhouchang"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="半制品外观"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_bzpwaiguan"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn3_10"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="定位 角度"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_dingweijiaodu"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="胎面"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_taimian"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="半制品先来用"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_xianyong"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="三线合一"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/bd_th_sanxian"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn3_11"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:text="提交"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bd_biaozhunshuju"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="数据标准设定页面"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

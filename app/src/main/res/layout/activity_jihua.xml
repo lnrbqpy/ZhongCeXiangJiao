@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jihua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.jihuaActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="计划控制管理页面"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/scjh_zh"
+        android:textSize="30sp"
+        android:text="月计划汇总"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/scjh_cxjh"
+        android:textSize="30sp"
+        android:text="成型计划"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/scjh_cxpz"
+        android:textSize="30sp"
+        android:text="成型配置"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/scjh_ptkb"
+        android:textSize="30sp"
+        android:text="胚胎看板"/>
+</LinearLayout>

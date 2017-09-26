@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/jc_tiaoma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C7E1B51081"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/jc_shijian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2017-03-15 02:19:54"/>
+        <View
+            android:gravity="center"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/jc_zhijian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="硫化扫描(新标签)"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/jc_dengji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="正品"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/jc_bingxiang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/activity_bar_code_query"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="开始时间"
+                    android:textColor="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/StartTime"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:paddingLeft="5dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text="结束时间"
+                    android:textColor="@color/white"
+                    />
+
+                <EditText
+
+                    android:id="@+id/EndTime"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:paddingLeft="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/cx"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="成型机台"
+                    android:textColor="@color/white"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/lh"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="硫化机台"
+                    android:textColor="@color/white"
+                    />
+
+                <RadioButton
+                    android:id="@+id/zl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="重量结果"
+                    android:textColor="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/x"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="X光判断"
+                    android:textColor="@color/white"
+                    />
+
+                <RadioButton
+                    android:id="@+id/wg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="外观机台"
+                    android:textColor="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/dj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="动均机台"
+                    android:textColor="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/qp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bcqa_bg_selecter"
+                    android:text="气泡机台"
+                    android:textColor="@color/white"/>
+
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white">
+
+                </Spinner>
+
+                <Button
+                    android:id="@+id/search_or"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button_red"
+                    android:text="搜索"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <FrameLayout
+            android:id="@+id/fl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

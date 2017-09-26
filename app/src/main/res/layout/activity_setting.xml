@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#696969"
+   >
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="#B22222"
+         >
+         <ImageView
+             android:id="@+id/back"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+            android:layout_alignParentLeft="true"
+             android:paddingLeft="20dp"
+             android:paddingTop="10dp"
+             />
+         <Button
+             android:id="@+id/save"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:paddingRight="10dp"
+             android:paddingTop="20dp"
+             android:text="保存"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:background="#B22222"/>
+
+
+     </RelativeLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:text="API服务"
+                 android:textColor="@color/white"
+                 android:textSize="30dp"
+                 android:paddingLeft="10dp"
+                 android:paddingTop="10dp"/>
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:background="@color/white"
+                 android:hint="请输入要填写的API地址"
+                 />
+         </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="平板编号"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/white"
+            android:hint="请输入要您的平板编号"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/setPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="重置密码"
+        android:background="#B22222"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+</LinearLayout>

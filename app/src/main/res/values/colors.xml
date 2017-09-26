@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="grey">#BFBFBF</color>
+    <color name="light_grey">#E9EAEC</color>
+    <color name="dark_gray">#626163</color>
+    <color name="blue">#067cef</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="click">#8DB6CD</color>
+    <color name="unfocused">#BFBFBF</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="selected">#fff33fff</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="green">#008000</color> <!-- 绿色 --> 
+    <color name="yellow">#ffff00</color> <!-- 黄色 --> 
+    <color name="springgreen">#00ff7f</color> <!-- 春绿色 --> 
+</resources>

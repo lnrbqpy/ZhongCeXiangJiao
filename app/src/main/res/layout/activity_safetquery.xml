@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inquire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Activity.SafetQuery_Activity">
+
+    <RadioGroup
+        android:id="@+id/sq_xuanze"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:paddingLeft="10dp">
+        <RadioButton
+
+            android:id="@+id/sq_molding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="成  型 车  间"
+            android:background="@drawable/bcqa_bg_selecter"
+            android:layout_marginTop="50dp"/>
+
+        <RadioButton
+            android:id="@+id/sq_vulcanize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="硫  化 车  间"
+            android:background="@drawable/bcqa_bg_selecter"
+            />
+
+        <RadioButton
+            android:id="@+id/sq_gum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="准  备 车  间"
+            android:background="@drawable/bcqa_bg_selecter"
+
+            />
+
+        <RadioButton
+            android:id="@+id/sq_prepare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="检  查 车  间"
+            android:background="@drawable/bcqa_bg_selecter"/>
+        />
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/sq_inquire"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+</LinearLayout>

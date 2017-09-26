@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_datajump"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.datajumpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="注意：进入页面时，请先点击查询施工表是否有便准数据，如果有标准数据，我们可以直接录入数据，如果没有标准数据，我们则需要先录入标准数据!"
+        android:textColor="@color/red"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/dj_chaxunshigong"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="110dp"
+        android:text="查询施工表是否有标准数据"/>
+
+    <Button
+        android:textColor="@color/red"
+        android:id="@+id/dj_lurushigong"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="施工表录入标准数据"/>
+
+
+    <Button
+        android:id="@+id/dj_lurushuju"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="录入测量数据"/>
+
+</LinearLayout>

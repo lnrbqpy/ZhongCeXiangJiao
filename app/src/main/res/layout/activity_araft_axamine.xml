@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_araft_axamine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/application_bg_welcome"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="hznj.com.zhongcexiangjiao.Activity.Araft_AxamineActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="数据录入页面"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:imeOptions="flagNoExtractUi"
+            android:id="@+id/ar_riqi"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="班次"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <Spinner
+            android:id="@+id/ar_banci"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="班组"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <Spinner
+            android:id="@+id/ar_benbanci"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="机台"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <Spinner
+            android:id="@+id/ar_jitai"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="100dp"
+         android:focusable="true"
+         android:focusableInTouchMode="true"
+         android:gravity="center"
+         android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="规格"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             />
+
+
+         <Spinner
+             android:id="@+id/ar_guige"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="3dp"
+             android:layout_marginRight="10dp"
+             android:background="@color/white"
+             android:textColor="@color/black"
+             android:textSize="18sp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="层级"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             />
+
+
+         <Spinner
+             android:id="@+id/ar_cengji"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="3dp"
+             android:layout_marginRight="10dp"
+             android:background="@color/white"
+             android:textColor="@color/black"
+             android:textSize="18sp"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="花纹"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             />
+
+
+         <EditText
+             android:imeOptions="flagNoExtractUi"
+             android:id="@+id/ar_huawen"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="3dp"
+             android:layout_marginRight="10dp"
+             android:background="@color/white"
+             android:textColor="@color/black"
+             android:textSize="18sp"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="系列"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             />
+
+
+         <Spinner
+             android:id="@+id/ar_xilie"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="3dp"
+             android:layout_marginRight="10dp"
+             android:background="@color/white"
+             android:textColor="@color/black"
+             android:textSize="18sp"/>
+     </LinearLayout>
+    <Button
+        android:id="@+id/ar_chengxingcansu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:elevation="1dp"
+        android:text="登陆"
+        android:textSize="30sp"/>
+
+</LinearLayout>
+
+
+
+
+

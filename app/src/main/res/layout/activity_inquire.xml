@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inquire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="horizontal"
+    tools:context=".activity.InquireActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_inquire"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:paddingLeft="10dp">
+           <RadioButton
+
+               android:id="@+id/gum"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="30dp"
+               android:textColor="@color/white"
+               android:text="检  查"
+               android:background="@drawable/bcqa_bg_selecter"
+               android:layout_marginTop="50dp"/>
+
+        <RadioButton
+            android:id="@+id/prepare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="硫  化"
+            android:background="@drawable/bcqa_bg_selecter"
+            />
+
+        <RadioButton
+            android:id="@+id/molding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="成  型"
+            android:background="@drawable/bcqa_bg_selecter"
+
+            />
+
+        <RadioButton
+            android:id="@+id/vulcanize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="半制品"
+            android:background="@drawable/bcqa_bg_selecter"/>
+/>
+    </RadioGroup>
+  <!--  <android.support.v4.view.ViewPager
+        android:id="@+id/vp_inquire"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>-->
+    <FrameLayout
+        android:id="@+id/fl_inquire"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+</LinearLayout>

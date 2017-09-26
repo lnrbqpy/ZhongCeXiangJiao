@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.CodeActivity"
+    android:orientation="vertical">
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="20dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="条码页面"
+       android:background="@color/red"
+       android:textColor="@color/white"
+       android:textSize="30dp"/>
+   <Button
+       android:layout_marginTop="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:id="@+id/ScanningCode"
+       android:textSize="30sp"
+       android:text="二维码扫描条码"/>
+
+   <Button
+       android:layout_marginTop="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:id="@+id/InquireCode"
+       android:textSize="30sp"
+       android:text="条件查询条码"/>
+
+   <Button
+       android:layout_marginTop="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:id="@+id/craft"
+       android:textSize="30sp"
+       android:text="成品工艺查询"/>
+
+
+
+
+
+</LinearLayout>

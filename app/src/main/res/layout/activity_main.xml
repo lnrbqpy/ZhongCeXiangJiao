@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:text="TOPS轮胎追溯"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        >
+
+        <RelativeLayout
+             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+
+            <ImageView
+                android:id="@+id/bar_code_Scanning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scanningbackgroung"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="条码查询"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+               android:layout_below="@id/bar_code_Scanning"
+               />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生产管理"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/bar_code_query"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/bar_code_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_selector"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机台检测"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+               android:layout_below="@+id/detection"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/detection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/machine_selector"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="安全管理"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+               android:layout_below="@+id/set"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings_selector"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

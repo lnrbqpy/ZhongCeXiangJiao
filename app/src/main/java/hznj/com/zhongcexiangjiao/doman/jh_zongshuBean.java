@@ -1,0 +1,308 @@
+package hznj.com.zhongcexiangjiao.doman;
+
+import java.util.List;
+
+public class jh_zongshuBean {
+
+
+    /**
+     * list : [{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CM983-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CG9A4D_RTW174008","PROCESSNO":"RTW-17-40-08-01","ERPCODE":null,"REQUIREMENT":1500,"SCHEDULEORDER":1515,"CURETIME":40,"CURECAPACITY":64.7,"SMACHINENUM":3.9,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-3.9,"CMT":null,"MOLDNUM":0,"CUREACTUAL":0,"REQUESTNUM":1515,"CURERATIO":0,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-1500,"EXPECTEDFINISHEDRATE":0,"DATAREC":77,"REMAININGDAYS":23.2},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CR926D-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CH8A4D_RTW174009","PROCESSNO":"RTW-17-40-09-01","ERPCODE":null,"REQUIREMENT":1000,"SCHEDULEORDER":102,"CURETIME":39,"CURECAPACITY":66.2,"SMACHINENUM":0.3,"AMACHINENUM":1,"AMACHINEIDALL":"G22","DIFFMACHIE":0.7,"CMT":null,"MOLDNUM":0,"CUREACTUAL":908,"REQUESTNUM":-806,"CURERATIO":890.2,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":463.4,"COMPARETOPLAN":371.4,"EXPECTEDFINISHEDRATE":1.37,"DATAREC":72,"REMAININGDAYS":1.4},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-NZ782-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CN5A4D_RTW174017","PROCESSNO":"RTW-17-40-17-01","ERPCODE":null,"REQUIREMENT":150,"SCHEDULEORDER":82,"CURETIME":45,"CURECAPACITY":58.2,"SMACHINENUM":0.2,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-0.2,"CMT":null,"MOLDNUM":0,"CUREACTUAL":70,"REQUESTNUM":12,"CURERATIO":85.37,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-80,"EXPECTEDFINISHEDRATE":0.47,"DATAREC":72,"REMAININGDAYS":1.4},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CR989-金冠-出口","PRODUCTIONCODE":"A1CI6B4D_RTW174006","PROCESSNO":"RTW-17-40-06-01","ERPCODE":null,"REQUIREMENT":350,"SCHEDULEORDER":332,"CURETIME":38,"CURECAPACITY":67.8,"SMACHINENUM":0.8,"AMACHINENUM":1,"AMACHINEIDALL":"J06","DIFFMACHIE":0.2,"CMT":null,"MOLDNUM":0,"CUREACTUAL":22,"REQUESTNUM":310,"CURERATIO":6.63,"ESTIMATEDDATE":"20170628","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":474.6,"COMPARETOPLAN":146.6,"EXPECTEDFINISHEDRATE":1.42,"DATAREC":71,"REMAININGDAYS":4.8},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CR989-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CI6A4D_RTW174006","PROCESSNO":"RTW-17-40-06-01","ERPCODE":null,"REQUIREMENT":1200,"SCHEDULEORDER":1212,"CURETIME":38,"CURECAPACITY":67.8,"SMACHINENUM":3,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-3,"CMT":null,"MOLDNUM":0,"CUREACTUAL":0,"REQUESTNUM":1212,"CURERATIO":0,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-1200,"EXPECTEDFINISHEDRATE":0,"DATAREC":71,"REMAININGDAYS":17.7},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-EZ372-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CK1A4D_RTW174012","PROCESSNO":"RTW-17-40-12-01","ERPCODE":null,"REQUIREMENT":650,"SCHEDULEORDER":657,"CURETIME":46,"CURECAPACITY":57,"SMACHINENUM":1.9,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-1.9,"CMT":null,"MOLDNUM":0,"CUREACTUAL":0,"REQUESTNUM":657,"CURERATIO":0,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-650,"EXPECTEDFINISHEDRATE":0,"DATAREC":66,"REMAININGDAYS":11.4},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-AS180-金冠-出口","PRODUCTIONCODE":"A1CN3B4D_RTW174019","PROCESSNO":"RTW-17-40-19-01","ERPCODE":null,"REQUIREMENT":2000,"SCHEDULEORDER":0,"CURETIME":39,"CURECAPACITY":66.2,"SMACHINENUM":0,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":0,"CMT":null,"MOLDNUM":0,"CUREACTUAL":2494,"REQUESTNUM":-2494,"CURERATIO":0,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":494,"EXPECTEDFINISHEDRATE":1.25,"DATAREC":60,"REMAININGDAYS":-7.5},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-AS678-威狮-出口","PRODUCTIONCODE":"A1CB5C3D_RTW174019","PROCESSNO":"RTW-17-40-19-01","ERPCODE":null,"REQUIREMENT":2000,"SCHEDULEORDER":364,"CURETIME":39,"CURECAPACITY":66.2,"SMACHINENUM":0.9,"AMACHINENUM":0.5,"AMACHINEIDALL":"H09","DIFFMACHIE":-0.4,"CMT":null,"MOLDNUM":0,"CUREACTUAL":1656,"REQUESTNUM":-1292,"CURERATIO":454.95,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":231.7,"COMPARETOPLAN":-112.3,"EXPECTEDFINISHEDRATE":0.94,"DATAREC":60,"REMAININGDAYS":10.4},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-AD757-威狮-出口","PRODUCTIONCODE":"A1CA8C3D_RTW174020","PROCESSNO":"RTW-17-40-20-01","ERPCODE":null,"REQUIREMENT":1600,"SCHEDULEORDER":0,"CURETIME":43,"CURECAPACITY":60.6,"SMACHINENUM":0,"AMACHINENUM":2,"AMACHINEIDALL":"H11 G21","DIFFMACHIE":2,"CMT":null,"MOLDNUM":0,"CUREACTUAL":2438,"REQUESTNUM":-2438,"CURERATIO":0,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":848.4,"COMPARETOPLAN":1686.4,"EXPECTEDFINISHEDRATE":2.05,"DATAREC":60,"REMAININGDAYS":-6.9},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-AD185-金冠-出口","PRODUCTIONCODE":"A1CN4B4D_RTW174020","PROCESSNO":"RTW-17-40-20-01","ERPCODE":null,"REQUIREMENT":2000,"SCHEDULEORDER":0,"CURETIME":43,"CURECAPACITY":60.6,"SMACHINENUM":0,"AMACHINENUM":1,"AMACHINEIDALL":"H23","DIFFMACHIE":1,"CMT":null,"MOLDNUM":0,"CUREACTUAL":2924,"REQUESTNUM":-2924,"CURERATIO":0,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":424.2,"COMPARETOPLAN":1348.2,"EXPECTEDFINISHEDRATE":1.67,"DATAREC":60,"REMAININGDAYS":-15.2},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-AS673-ARISUN-US","PRODUCTIONCODE":"A1CB4A1F_US174019","PROCESSNO":"US-17-40-19-01","ERPCODE":null,"REQUIREMENT":100,"SCHEDULEORDER":101,"CURETIME":39,"CURECAPACITY":66.2,"SMACHINENUM":0.3,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-0.3,"CMT":null,"MOLDNUM":0,"CUREACTUAL":0,"REQUESTNUM":101,"CURERATIO":0,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-100,"EXPECTEDFINISHEDRATE":0,"DATAREC":41,"REMAININGDAYS":1.5},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CB972-GOODRIDE(好运)-出口","PRODUCTIONCODE":"A1CE1A4D_RTW174010","PROCESSNO":"RTW-17-40-10-01","ERPCODE":null,"REQUIREMENT":2000,"SCHEDULEORDER":1240,"CURETIME":48,"CURECAPACITY":54.9,"SMACHINENUM":3.8,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-3.8,"CMT":null,"MOLDNUM":0,"CUREACTUAL":780,"REQUESTNUM":460,"CURERATIO":62.9,"ESTIMATEDDATE":"未安排","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-1220,"EXPECTEDFINISHEDRATE":0.39,"DATAREC":25,"REMAININGDAYS":22.2},{"YEARMONTH":"201706","SCHEDULEID":"B","FNAME":"11R24.5-16PR-CB972-威狮-出口","PRODUCTIONCODE":"A1CE1C3D_RTW174010","PROCESSNO":"RTW-17-40-10-01","ERPCODE":null,"REQUIREMENT":1500,"SCHEDULEORDER":90,"CURETIME":48,"CURECAPACITY":54.9,"SMACHINENUM":0.3,"AMACHINENUM":0,"AMACHINEIDALL":null,"DIFFMACHIE":-0.3,"CMT":null,"MOLDNUM":0,"CUREACTUAL":1425,"REQUESTNUM":-1335,"CURERATIO":1583.33,"ESTIMATEDDATE":"已超量","SCHEDULEEND":"0","REMAININGDAYSOUTPUT":0,"COMPARETOPLAN":-75,"EXPECTEDFINISHEDRATE":0.95,"DATAREC":25,"REMAININGDAYS":1.4}]
+     * msg : 请求成功
+     * result : 1
+     */
+
+    private String msg;
+    private String         result;
+    private List<ListBean> list;
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public String getResult() {
+        return result;
+    }
+
+    public void setResult(String result) {
+        this.result = result;
+    }
+
+    public List<ListBean> getList() {
+        return list;
+    }
+
+    public void setList(List<ListBean> list) {
+        this.list = list;
+    }
+
+    public static class ListBean {
+        /**
+         月份 * YEARMONTH : 201706
+         类别 * SCHEDULEID : B    l
+         规格* FNAME : 11R24.5-16PR-CM983-GOODRIDE(好运)-出口
+         * PRODUCTIONCODE : A1CG9A4D_RTW174008
+         * PROCESSNO : RTW-17-40-08-01
+         * ERPCODE : null
+         月入库计划* REQUIREMENT : 1500
+         月生产计划* SCHEDULEORDER : 1515
+         硫化时间* CURETIME : 40.0
+         单台日产* CURECAPACITY : 64.7
+         计划几台* SMACHINENUM : 3.9
+         现状* AMACHINENUM : 0.0
+         * AMACHINEIDALL : null
+         差异* DIFFMACHIE : -3.9
+         备注* CMT : null
+         * MOLDNUM : 0
+         硫化完成量* CUREACTUAL : 0
+         * REQUESTNUM : 1515
+         完成率* CURERATIO : 0.0
+         预计划完成日期* ESTIMATEDDATE : 未安排
+         * SCHEDULEEND : 0
+         * REMAININGDAYSOUTPUT : 0
+         * COMPARETOPLAN : -1500
+         * EXPECTEDFINISHEDRATE : 0
+         * DATAREC : 77
+         * REMAININGDAYS : 23.2
+         */
+
+        private String YEARMONTH;
+        private String SCHEDULEID;
+        private String FNAME;
+        private String PRODUCTIONCODE;
+
+        private String PROCESSNO;
+        private Object ERPCODE;
+        private int    REQUIREMENT;
+        private int    SCHEDULEORDER;
+        private double CURETIME;
+        private double CURECAPACITY;
+        private double SMACHINENUM;
+        private double AMACHINENUM;
+        private Object AMACHINEIDALL;
+        private double DIFFMACHIE;
+        private Object CMT;
+        private int    MOLDNUM;
+        private int    CUREACTUAL;
+        private int    REQUESTNUM;
+        private double CURERATIO;
+        private String ESTIMATEDDATE;
+        private String SCHEDULEEND;
+        private int    REMAININGDAYSOUTPUT;
+        private int    COMPARETOPLAN;
+        private int    EXPECTEDFINISHEDRATE;
+        private int    DATAREC;
+        private double REMAININGDAYS;
+
+        public String getYEARMONTH() {
+            return YEARMONTH;
+        }
+
+        public void setYEARMONTH(String YEARMONTH) {
+            this.YEARMONTH = YEARMONTH;
+        }
+
+        public String getSCHEDULEID() {
+            return SCHEDULEID;
+        }
+
+        public void setSCHEDULEID(String SCHEDULEID) {
+            this.SCHEDULEID = SCHEDULEID;
+        }
+
+        public String getFNAME() {
+            return FNAME;
+        }
+
+        public void setFNAME(String FNAME) {
+            this.FNAME = FNAME;
+        }
+
+        public String getPRODUCTIONCODE() {
+            return PRODUCTIONCODE;
+        }
+
+        public void setPRODUCTIONCODE(String PRODUCTIONCODE) {
+            this.PRODUCTIONCODE = PRODUCTIONCODE;
+        }
+
+        public String getPROCESSNO() {
+            return PROCESSNO;
+        }
+
+        public void setPROCESSNO(String PROCESSNO) {
+            this.PROCESSNO = PROCESSNO;
+        }
+
+        public Object getERPCODE() {
+            return ERPCODE;
+        }
+
+        public void setERPCODE(Object ERPCODE) {
+            this.ERPCODE = ERPCODE;
+        }
+
+        public int getREQUIREMENT() {
+            return REQUIREMENT;
+        }
+
+        public void setREQUIREMENT(int REQUIREMENT) {
+            this.REQUIREMENT = REQUIREMENT;
+        }
+
+        public int getSCHEDULEORDER() {
+            return SCHEDULEORDER;
+        }
+
+        public void setSCHEDULEORDER(int SCHEDULEORDER) {
+            this.SCHEDULEORDER = SCHEDULEORDER;
+        }
+
+        public double getCURETIME() {
+            return CURETIME;
+        }
+
+        public void setCURETIME(double CURETIME) {
+            this.CURETIME = CURETIME;
+        }
+
+        public double getCURECAPACITY() {
+            return CURECAPACITY;
+        }
+
+        public void setCURECAPACITY(double CURECAPACITY) {
+            this.CURECAPACITY = CURECAPACITY;
+        }
+
+        public double getSMACHINENUM() {
+            return SMACHINENUM;
+        }
+
+        public void setSMACHINENUM(double SMACHINENUM) {
+            this.SMACHINENUM = SMACHINENUM;
+        }
+
+        public double getAMACHINENUM() {
+            return AMACHINENUM;
+        }
+
+        public void setAMACHINENUM(double AMACHINENUM) {
+            this.AMACHINENUM = AMACHINENUM;
+        }
+
+        public Object getAMACHINEIDALL() {
+            return AMACHINEIDALL;
+        }
+
+        public void setAMACHINEIDALL(Object AMACHINEIDALL) {
+            this.AMACHINEIDALL = AMACHINEIDALL;
+        }
+
+        public double getDIFFMACHIE() {
+            return DIFFMACHIE;
+        }
+
+        public void setDIFFMACHIE(double DIFFMACHIE) {
+            this.DIFFMACHIE = DIFFMACHIE;
+        }
+
+        public Object getCMT() {
+            return CMT;
+        }
+
+        public void setCMT(Object CMT) {
+            this.CMT = CMT;
+        }
+
+        public int getMOLDNUM() {
+            return MOLDNUM;
+        }
+
+        public void setMOLDNUM(int MOLDNUM) {
+            this.MOLDNUM = MOLDNUM;
+        }
+
+        public int getCUREACTUAL() {
+            return CUREACTUAL;
+        }
+
+        public void setCUREACTUAL(int CUREACTUAL) {
+            this.CUREACTUAL = CUREACTUAL;
+        }
+
+        public int getREQUESTNUM() {
+            return REQUESTNUM;
+        }
+
+        public void setREQUESTNUM(int REQUESTNUM) {
+            this.REQUESTNUM = REQUESTNUM;
+        }
+
+        public double getCURERATIO() {
+            return CURERATIO;
+        }
+
+        public void setCURERATIO(double CURERATIO) {
+            this.CURERATIO = CURERATIO;
+        }
+
+        public String getESTIMATEDDATE() {
+            return ESTIMATEDDATE;
+        }
+
+        public void setESTIMATEDDATE(String ESTIMATEDDATE) {
+            this.ESTIMATEDDATE = ESTIMATEDDATE;
+        }
+
+        public String getSCHEDULEEND() {
+            return SCHEDULEEND;
+        }
+
+        public void setSCHEDULEEND(String SCHEDULEEND) {
+            this.SCHEDULEEND = SCHEDULEEND;
+        }
+
+        public int getREMAININGDAYSOUTPUT() {
+            return REMAININGDAYSOUTPUT;
+        }
+
+        public void setREMAININGDAYSOUTPUT(int REMAININGDAYSOUTPUT) {
+            this.REMAININGDAYSOUTPUT = REMAININGDAYSOUTPUT;
+        }
+
+        public int getCOMPARETOPLAN() {
+            return COMPARETOPLAN;
+        }
+
+        public void setCOMPARETOPLAN(int COMPARETOPLAN) {
+            this.COMPARETOPLAN = COMPARETOPLAN;
+        }
+
+        public int getEXPECTEDFINISHEDRATE() {
+            return EXPECTEDFINISHEDRATE;
+        }
+
+        public void setEXPECTEDFINISHEDRATE(int EXPECTEDFINISHEDRATE) {
+            this.EXPECTEDFINISHEDRATE = EXPECTEDFINISHEDRATE;
+        }
+
+        public int getDATAREC() {
+            return DATAREC;
+        }
+
+        public void setDATAREC(int DATAREC) {
+            this.DATAREC = DATAREC;
+        }
+
+        public double getREMAININGDAYS() {
+            return REMAININGDAYS;
+        }
+
+        public void setREMAININGDAYS(double REMAININGDAYS) {
+            this.REMAININGDAYS = REMAININGDAYS;
+        }
+    }
+}
